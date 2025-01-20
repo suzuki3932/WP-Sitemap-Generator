@@ -5,6 +5,10 @@ Description: 最もシンプルなサイトマップ生成プラグイン。
 Version: 1.0
 Author: Myon
 Author URI: https://youmutech.cloudfree.jp/
+Requires PHP: 7.4
+Requires at least: 5.5
+License: GPL v2 or later
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
 */
 
 add_filter( 'wp_sitemaps_enabled', '__return_false' );
